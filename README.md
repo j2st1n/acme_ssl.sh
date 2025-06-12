@@ -22,7 +22,7 @@
 通过一个命令即可下载并执行脚本。
 
 ```bash
-wget -O acme_ssl.sh  && chmod +x acme_ssl.sh && ./acme_ssl.sh
+wget -O acme_ssl.sh https://raw.githubusercontent.com/j2st1n/acme_ssl.sh/refs/heads/main/acme_ssl.sh && chmod +x acme_ssl.sh && ./acme_ssl.sh
 ```
 
 脚本启动后，会提示你输入域名，然后会自动完成所有后续步骤。
